@@ -9,7 +9,7 @@ namespace Shatably.Models
         public int CartId { get; set; }
 
         [ForeignKey("User")]
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         // Relationships
         public User User { get; set; }

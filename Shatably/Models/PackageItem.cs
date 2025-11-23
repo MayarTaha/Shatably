@@ -11,7 +11,7 @@
 
         public int ProductId { get; set; }
         //fk
-        //public Product Product { get; set; }
+        public Product Product { get; set; }
 
     }
 }

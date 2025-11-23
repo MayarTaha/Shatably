@@ -24,7 +24,7 @@
         public decimal TotalPrice { get; set; }
 
         public paymentMethod PaymentMethod { get; set; }
-        public int UserId { get; set; }
+        public string UserId { get; set; }
         //fk
         public User User { get; set; }
         public ICollection<OrderItem> OrderItems { get; set; }
