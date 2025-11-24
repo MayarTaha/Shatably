@@ -12,7 +12,7 @@ namespace Shatably.Models
         [Key]
         public int SubCategoryId { get; set; }
         [ForeignKey("Category")]
-        public int CaregoryId { get; set; }
+        public int CategoryId { get; set; }
         public Category Category { get; set; }
         public ICollection<Product> Products { get; set; }
     }
