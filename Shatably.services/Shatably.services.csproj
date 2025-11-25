@@ -7,13 +7,26 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Impelmentaion\" />
-    <Folder Include="Abstraction\" />
+    <Compile Remove="Abstraction\**" />
+    <Compile Remove="Impelmentaion\**" />
+    <EmbeddedResource Remove="Abstraction\**" />
+    <EmbeddedResource Remove="Impelmentaion\**" />
+    <None Remove="Abstraction\**" />
+    <None Remove="Impelmentaion\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.11" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Shatably.data\Shatably.data.csproj" />
     <ProjectReference Include="..\Shatably.infrastructure\Shatably.infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstracts\" />
+    <Folder Include="Implementations\" />
   </ItemGroup>
 
 </Project>
