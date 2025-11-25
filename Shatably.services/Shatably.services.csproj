@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Impelmentaion\" />
+    <Folder Include="Abstraction\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shatably.data\Shatably.data.csproj" />
+    <ProjectReference Include="..\Shatably.infrastructure\Shatably.infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

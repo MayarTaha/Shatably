@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shatably", "Shatably\Shatably.csproj", "{42E446C4-2BEA-4E20-B3E7-B5CCAAD32F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shatably.data", "Shatably.data\Shatably.data.csproj", "{73891A41-1F3C-4B80-87B0-39940F09A85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shatably.infrastructure", "Shatably.infrastructure\Shatably.infrastructure.csproj", "{9E1C72BE-A16E-4303-8DF9-5719058823AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shatably.services", "Shatably.services\Shatably.services.csproj", "{7E82A67B-E9CF-42CA-9983-8308EC49B911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shatably.core", "Shatably.core\Shatably.core.csproj", "{A40E57C0-ABBA-4175-880F-1769A9052EDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{42E446C4-2BEA-4E20-B3E7-B5CCAAD32F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42E446C4-2BEA-4E20-B3E7-B5CCAAD32F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42E446C4-2BEA-4E20-B3E7-B5CCAAD32F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73891A41-1F3C-4B80-87B0-39940F09A85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73891A41-1F3C-4B80-87B0-39940F09A85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73891A41-1F3C-4B80-87B0-39940F09A85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73891A41-1F3C-4B80-87B0-39940F09A85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1C72BE-A16E-4303-8DF9-5719058823AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1C72BE-A16E-4303-8DF9-5719058823AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1C72BE-A16E-4303-8DF9-5719058823AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1C72BE-A16E-4303-8DF9-5719058823AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E82A67B-E9CF-42CA-9983-8308EC49B911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E82A67B-E9CF-42CA-9983-8308EC49B911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E82A67B-E9CF-42CA-9983-8308EC49B911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E82A67B-E9CF-42CA-9983-8308EC49B911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40E57C0-ABBA-4175-880F-1769A9052EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40E57C0-ABBA-4175-880F-1769A9052EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40E57C0-ABBA-4175-880F-1769A9052EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40E57C0-ABBA-4175-880F-1769A9052EDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
