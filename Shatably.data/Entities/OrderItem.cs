@@ -10,7 +10,7 @@
         public Order Order { get; set; }
         public int StoreProductId { get; set; }
         //fk
-       // public StoreProductId Product { get; set; }
+        public StoreProduct Product { get; set; }
 
     }
 }
