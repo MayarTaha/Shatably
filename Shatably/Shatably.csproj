@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shatably.core\Shatably.core.csproj" />
+    <ProjectReference Include="..\Shatably.data\Shatably.data.csproj" />
     <ProjectReference Include="..\Shatably.infrastructure\Shatably.infrastructure.csproj" />
   </ItemGroup>
 

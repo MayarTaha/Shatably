@@ -1,4 +1,4 @@
-﻿namespace Shatably.Models
+﻿namespace Shatably.data.Entities
 {
     public enum OrderStatus
     {

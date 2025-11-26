@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Shatably.Controllers
 {
@@ -7,5 +6,10 @@ namespace Shatably.Controllers
     [ApiController]
     public class test : ControllerBase
     {
+        [HttpGet]
+        public IActionResult t()
+        {
+            return Ok();
+        }
     }
 }

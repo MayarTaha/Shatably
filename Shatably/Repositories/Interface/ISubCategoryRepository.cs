@@ -1,10 +1,10 @@
-﻿using Shatably.Models;
+﻿using Shatably.data.Entities;
 
 namespace Shatably.Repositories.Interface
 {
-    public interface ISubCategoryRepository:IGenericRepository<SubCategory>
+    public interface ISubCategoryRepository : IGenericRepository<SubCategory>
     {
-        Task<IEnumerable<SubCategory>>GetSubCategoryByCategoryIdAsync(int CategoryId);
+        Task<IEnumerable<SubCategory>> GetSubCategoryByCategoryIdAsync(int CategoryId);
 
     }
 }
