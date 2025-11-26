@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 
-namespace Shatably.Models
+namespace Shatably.data.Entities
 {
     public class Category
     {

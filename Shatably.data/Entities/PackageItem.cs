@@ -1,4 +1,4 @@
-﻿namespace Shatably.Models
+﻿namespace Shatably.data.Entities
 {
     public class PackageItem
     {
@@ -10,7 +10,7 @@
         public Package Package { get; set; }
 
         public int ProductId { get; set; }
-     
+
         public Product Product { get; set; }
     }
 }

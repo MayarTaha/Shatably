@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Shatably.Models;
+using Shatably.data.Entities;
+//using Shatably.Models;
 
 namespace Shatably.Data
 {
-    
+
     public class AppDbContext : IdentityDbContext<User>
     {
         public AppDbContext(DbContextOptions<AppDbContext> options)
@@ -12,7 +13,7 @@ namespace Shatably.Data
         {
         }
 
-      
+
         public DbSet<Category> Categories { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
         public DbSet<Product> Products { get; set; }
@@ -31,6 +32,6 @@ namespace Shatably.Data
         public DbSet<PackageItem> PackageItems { get; set; }
         public DbSet<Review> Reviews { get; set; }
 
-       
+
     }
 }

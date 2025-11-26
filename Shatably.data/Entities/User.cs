@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
 
-namespace Shatably.Models
+namespace Shatably.data.Entities
 {
     public class User : IdentityUser
     {

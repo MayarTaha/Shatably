@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.22" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Shatably.core\Shatably.core.csproj" />
+    <ProjectReference Include="..\Shatably.data\Shatably.data.csproj" />
     <ProjectReference Include="..\Shatably.infrastructure\Shatably.infrastructure.csproj" />
   </ItemGroup>
 

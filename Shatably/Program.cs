@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Shatably.data.Entities;
 using Shatably.Data;
-using Shatably.Models;
+//using Shatably.Models;
+using System.Text;
+//using Shatably.Models;
 
 namespace Shatably
 {
@@ -72,7 +74,7 @@ namespace Shatably
 
             app.UseHttpsRedirection();
 
-            app.UseAuthentication(); 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();

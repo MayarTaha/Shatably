@@ -1,15 +1,15 @@
-﻿using Shatably.Data;
-using Shatably.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Shatably.data.Entities;
+using Shatably.Data;
 using Shatably.Repositories.Interface;
-using Microsoft.EntityFrameworkCore;
 
 namespace Shatably.Repositories.Implementation
 {
-    public class SubCategoryRepository:GenericRepository<SubCategory>,ISubCategoryRepository
+    public class SubCategoryRepository : GenericRepository<SubCategory>, ISubCategoryRepository
     {
         public SubCategoryRepository(AppDbContext context) : base(context)
-        { 
-        
+        {
+
         }
         public async Task<IEnumerable<SubCategory>> GetSubCategoryByCategoryIdAsync(int CategoryId)
         {

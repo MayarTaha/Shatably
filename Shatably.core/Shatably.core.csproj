@@ -7,9 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.0" />
+    <PackageReference Include="MediatR" Version="13.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Shatably.data\Shatably.data.csproj" />
     <ProjectReference Include="..\Shatably.infrastructure\Shatably.infrastructure.csproj" />
     <ProjectReference Include="..\Shatably.services\Shatably.services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Auth\Login\" />
   </ItemGroup>
 
 </Project>
